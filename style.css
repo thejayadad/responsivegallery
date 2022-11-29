@@ -1,0 +1,29 @@
+body {
+
+    align-items: center;
+    height: 100vh;
+    background: black;
+    color: white;
+
+}
+h2{
+    text-align: center;
+}
+
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.cards{
+    height: 200px;
+    background-color: orange;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+}
